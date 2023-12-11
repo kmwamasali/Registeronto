@@ -1,0 +1,137 @@
+@import "bootstrap";
+$info: #30384B;
+
+.dark-admin {
+  $primary: white;
+  $secondary: #30384b;
+  $success: #6c757d;
+  $danger: #dc3545;
+  $indigo: #6610f2;
+  $dark: #212529;
+  $light: #f8f9fa;
+  //color: white;
+  $table-color: white;
+  $headings-color: $primary;
+  $link-color: $primary;
+  $link-hover-color: $primary;
+  $table-hover-color: $primary;
+  $body-color: $primary;
+  $table-hover-bg: lighten(black, 30%);
+  $theme-colors: (
+          "primary": $primary,
+          "secondary": $secondary,
+          "success": $success,
+          "danger": $danger,
+          "info": $indigo,
+          "dark": $dark,
+          "light": $light,
+  );
+  a:hover {
+    font-weight:bold;
+  }
+  background-color: #292929;
+  .info-part {
+    .btn-primary {
+      color: black;
+      &:hover {
+        font-weight:normal;
+      }
+    }
+  }
+  /* redefine theme color rgb vars (used for bg- colors) */
+  small, .notice, strong, legend, label, div {
+    color: $primary;
+  }
+  .trix-button, trix-editor {
+    background-color:white;
+  }
+  @import "bootstrap";
+}
+.none {
+  display: none;
+}
+.navbar-custom {
+  background-color: #292929;
+  .nav-link {
+    color: rgba(255,255,255,255);
+    &:hover {
+      color: #F2F2F2;
+    }
+  }
+}
+.logo {
+  height: 45px;
+  width: auto !important;
+}
+.btn-primary {
+  background-color: #885bce  !important;
+  border-color: #885BD0 !important;
+}
+.bg-purple {
+  background-color: $info !important;
+}
+.info-text {
+  color: $info !important;
+}
+html {position: relative;}
+
+html, body { min-height: 100% }
+#page-content { min-height: 85vh; }
+footer {position: relative; bottom: 0; }
+footer {
+  //margin-top:50px;
+  //padding:30px;
+  margin-top:50px;
+  background: #292929;
+  a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+  }
+}
+.light {
+  background: var(--main-bg-color);
+}
+.dark {
+  background: var(--main-bg-color);
+  h3 a {
+    color: var(--main-link-color);
+  }
+  .btn-stubmatic {
+    background-color: var(--main-button-bg-color);
+    border-color: var(--main-button-bg-color);
+    color: white;
+  }
+  .lighter-dark {
+    background: #333333;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  p {
+    color: white;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: white;
+  }
+  legend {
+    color: #FFFFFF;
+  }
+  .info-part a, .info-part {
+    color: #FFFFFF;
+  }
+}
+.light {
+  .btn-stubmatic {
+    background-color: var(--main-button-bg-color);
+    border-color: var(--main-button-bg-color);
+    color: white;
+  }
+  h3 a {
+    color: var(--main-link-color);
+  }
+}
+.decorate {
+  label {
+    font-weight: bold;
+  }
+}
