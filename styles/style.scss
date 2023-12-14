@@ -59,6 +59,9 @@ $info: #30384B;
     }
   }
 }
+.w-40 {
+  width: 40% !important;
+}
 .logo {
   height: 45px;
   width: auto !important;
@@ -69,6 +72,9 @@ $info: #30384B;
 }
 .bg-purple {
   background-color: $info !important;
+}
+.bg-light-grey {
+  background-color: #f8f7fc !important;
 }
 .info-text {
   color: $info !important;
